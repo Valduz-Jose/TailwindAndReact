@@ -4,7 +4,7 @@ import { CardMenu } from "../components/HomeComponents/CardMenu";
 import { Icon } from "@iconify/react/dist/iconify.js";
 export const Home = () =>{
     const {theme, toggleTheme} = useThemeStore();
-
+    
     return(
         <main className="bg-primary h-screen dark:bg-primary-drak flex flex-col items-center justify-center overflow-hidden">
             <section className=" rounded-lg min-w-[450px] ">
